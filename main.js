@@ -1,8 +1,8 @@
-import * as THREE from "https://esm.sh/three";
-import { OrbitControls } from "https://esm.sh/three/addons/controls/OrbitControls.js";
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import GUI from 'https://cdn.jsdelivr.net/npm/lil-gui@0.20/+esm';
-import { FontLoader } from "https://esm.sh/three/addons/loaders/FontLoader.js";
-import { TextGeometry } from "https://esm.sh/three/addons/geometries/TextGeometry.js";
+import { FontLoader } from 'three/addons/loaders/FontLoader.js';
+import { TextGeometry } from 'three/addons/geometries/TextGeometry.js';
 
 // Function to generate random neon colors
 const getRandomNeonColor = () => {
